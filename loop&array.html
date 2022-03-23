@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Loop&Array</h1>
+    <script>
+        var coworkers=['yuri','lizy','tom','chris','rose'];
+    </script>
+    <h2>Co workers</h2>
+    <ul>
+      <!-- <script>
+        var i = 0; while(i<4){
+       document.write('<li>yuri</li>');
+       document.write('<li>lizy</li>');
+       document.write('<li>tom</li>');
+       document.write('<li>chris</li>');
+       i++;
+       }
+      </script> -->
+
+      <script>
+          var z=0; while(z<coworkers.length){
+              document.write('<li><a href=https://www.bufs.ac.kr/bbs/board.php?bo_table=bufsmain>' + coworkers[z] + '</li>')
+              z++;
+          }
+      </script>
+    </ul>
+    
+</body>
+</html>
